@@ -88,7 +88,7 @@ app.post("/repositories/:id/like", (request, response) => {
 });
 
 if (process.env.NODE_ENV !== 'test') {
-  app.listen(3333, () => {
+  app.listen(3334, () => {
     console.log(' backend started');
   });
 }
